@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login html</title>
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstraps/bootstrap-icons/bootstrap-icons.css">
+</head>
+<style>
+    body{
+        background-color: lightgrey;
+    }
+    label{
+        font-size: 20px;
+        color:black;
+
+    }
+    input{
+        width: 100%;
+        padding:10px;
+        margin:1rem;
+    }
+    .submitbtn{
+        justify-content: center;
+        margin-left: 30%;
+        width: 40%;
+        background-color: green;
+        border-radius: 10px;
+        padding:6px;
+
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand bg-secondary fs-5 fw-bolder text-light shadow-lg">
+        <div class="navbar-brand text-light"><i class="bi-cart-check"></i>HenMall</div>
+        <ul class="nav ms-auto ">
+            <a href="landing.html" class="nav-item m-2 text-decoration-none text-light">Home</a>
+            <a href="register.html" class="nav-item m-2 text-decoration-none text-light">Register</a>
+
+            <a href="login.html" class="nav-item m-2 text-decoration-none text-light">Login</a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6 justify-content-center m-3">
+                <br>
+                <form action="" class=" p-5 bg-light shadow-lg">
+                    <h3 class="text-center">Login</h3>
+                    <label for="username">username</label>
+                    <input type="text" placeholder=" provide username">
+                    <label for="username">password</label>
+                    <input type="text" placeholder=" provide password">
+                    
+                    <button class="submitbtn text-light fw-bolder fs-5">submit</button>
+                    <hr>
+                    <p>don't have an account <a href="register.html">signup</a></p>
+                    
+                    
+                </form>
+
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    
+
+
+    <script src="bootstraps/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstraps/js/bootstrap.bundle.js"></script>
+</body>
+</html>

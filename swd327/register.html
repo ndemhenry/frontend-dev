@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstraps/bootstrap-icons/bootstrap-icons.css">
+</head>
+<style>
+    .form{
+        width: 80%;
+        
+        background-color:lightgrey;
+        margin-top: 3rem;
+    }
+
+    input{
+        width:100%;
+        margin:5px;
+        padding: 4px;
+    }
+    #submitbtn{
+        background-color:blue;
+        border-radius: 10px;
+    }
+    #submitbtn:hover{
+        background-color: green;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand bg-secondary fs-5 fw-bolder text-light shadow-lg">
+        <div class="navbar-brand text-light"><i class="bi-cart-check"></i>HenMall</div>
+        <ul class="nav ms-auto ">
+            <a href="landing.html" class="nav-item m-2 text-decoration-none text-light">Home</a>
+            <a href="register.html" class="nav-item m-2 text-decoration-none text-light">Register</a>
+
+            <a href="login.html" class="nav-item m-2 text-decoration-none text-light">Login</a>
+        </ul>
+    </nav>
+
+
+    <!-- registration -->
+     <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6 justify-content-center">
+
+                <form action="" class="form p-5">
+                    <h2>Register Now!</h2>
+                    <input type="text"placeholder="Full-Name">
+                    <input type="text"placeholder="enter username">
+                    <input type="text"placeholder="Provide Password">
+                    <input type="text"placeholder="confirm Password">
+
+                    <input type="submit" id="submitbtn">
+                    <hr>
+                    <p>already have account <a href="login.html">signin</a></p>
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+     </div>
+</body>
+</html>
